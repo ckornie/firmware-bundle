@@ -9,6 +9,8 @@ The following hardware is also supported:
 
 - Realtek RTL8153B (Volans VL-RJ45 Gigabit Ethernet Adapter)
 
+The firmware can be built into the kernel by enabling [CONFIG_EXTRA_FIRMWARE](https://cateee.net/lkddb/web-lkddb/EXTRA_FIRMWARE.html).
+
 ## Raspberry Pi 4 Model B
 
 ### Description
@@ -50,6 +52,34 @@ Download the latest [Broadcom BCM43455 Bluetooth firmware](https://github.com/RP
 ### Further Reading
 
 - https://wireless.wiki.kernel.org/en/users/drivers/brcm80211
+
+## Dell XPS 13 9350 Firmware
+
+### Description
+
+The following firmware is included:
+
+- Intel Iris 540
+- Intel Wireless 8260
+
+The files below along with [sys-firmware/intel-microcode](https://packages.gentoo.org/packages/sys-firmware/intel-microcode) and [net-wireless/wireless-regdb](https://packages.gentoo.org/packages/net-wireless/wireless-regdb) should provide all firmware required for the Dell XPS 9350.
+
+### Updating
+
+The following files are a selection from the [Linux Firmware](https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/) project. The full selection is packaged by Gentoo as [sys-kernel/linux-firmware](https://packages.gentoo.org/packages/sys-kernel/linux-firmware):
+
+- [skl_dmc_ver1_27.bin](https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/plain/i915/skl_dmc_ver1_27.bin)
+- [skl_guc_33.0.0.bin](https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/plain/i915/skl_guc_33.0.0.bin)
+- [skl_huc_2.0.0.bin](https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/plain/i915/skl_huc_2.0.0.bin)
+- [iwlwifi-8000C-36.ucode](https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/plain/iwlwifi-8000C-36.ucode)
+
+### Further Reading
+
+- https://wiki.gentoo.org/wiki/Iwlwifi
+- https://wiki.gentoo.org/wiki/Linux_firmware
+- https://wiki.gentoo.org/wiki/Intel
+- https://wireless.wiki.kernel.org/en/users/drivers/iwlwifi
+
 
 ## Realtek RTL8153B
 
