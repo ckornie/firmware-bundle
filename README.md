@@ -50,3 +50,15 @@ Download the latest [Broadcom BCM43455 Bluetooth firmware](https://github.com/RP
 ### Further Reading
 
 - https://wireless.wiki.kernel.org/en/users/drivers/brcm80211
+
+## Realtek RTL8153B
+
+### Description
+
+The RTL8153B is a common network chipset. It is used in the Volans VL-RJ45 Gigabit Ethernet Adapter.
+
+### Updating
+
+Download the latest [firmware](https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/plain/rtl_nic/) by refreshing the following file:
+
+- [rtl8153a-4.fw](https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/plain/rtl_nic/rtl8153a-4.fw)
