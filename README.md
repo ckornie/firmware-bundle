@@ -35,23 +35,15 @@ Download the latest [Broadcom VideoCore VI firmware](https://github.com/raspberr
 - [COPYING.linux](https://github.com/raspberrypi/firmware/raw/master/boot/COPYING.linux)
 - [LICENCE.broadcom](https://github.com/raspberrypi/firmware/raw/master/boot/LICENCE.broadcom)
 
-Download the latest [Broadcom BCM43455 wireless firmware](https://github.com/RPi-Distro/firmware-nonfree/tree/master/brcm) by refreshing the following files:
+Download the latest [Cypress CYW43455 802.11 firmware](https://github.com/RPi-Distro/firmware-nonfree/tree/bullseye/debian/config/brcm80211/brcm) by refreshing the following files:
 
-- [brcmfmac43430-sdio.raspberrypi-rpi.txt](https://github.com/RPi-Distro/firmware-nonfree/raw/buster/brcm/brcmfmac43430-sdio.raspberrypi-rpi.txt)
-- [brcmfmac43430-sdio.txt](https://github.com/RPi-Distro/firmware-nonfree/raw/buster/brcm/brcmfmac43430-sdio.txt)
-- [brcmfmac43455-sdio.bin](https://github.com/RPi-Distro/firmware-nonfree/raw/buster/brcm/brcmfmac43455-sdio.bin)
-- [brcmfmac43455-sdio.clm_blob](https://github.com/RPi-Distro/firmware-nonfree/raw/buster/brcm/brcmfmac43455-sdio.clm_blob)
-- [brcmfmac43455-sdio.txt](https://github.com/RPi-Distro/firmware-nonfree/raw/buster/brcm/brcmfmac43455-sdio.txt)
+- [cyfmac43455-sdio.bin](https://github.com/RPi-Distro/firmware-nonfree/raw/bullseye/debian/config/brcm80211/cypress/cyfmac43455-sdio.bin)
+- [cyfmac43455-sdio.clm_blob](https://github.com/RPi-Distro/firmware-nonfree/raw/bullseye/debian/config/brcm80211/cypress/cyfmac43455-sdio.clm_blob)
+- [brcmfmac43455-sdio.txt](https://raw.githubusercontent.com/RPi-Distro/firmware-nonfree/bullseye/debian/config/brcm80211/brcm/brcmfmac43455-sdio.txt)
 
+Download the latest [Cypress CYW43455 Bluetooth firmware](https://github.com/RPi-Distro/bluez-firmware/tree/master/broadcom) by refreshing the following files:
 
-Download the latest [Broadcom BCM43455 Bluetooth firmware](https://github.com/RPi-Distro/bluez-firmware/tree/master/broadcom) by refreshing the following files:
-
-- [BCM43430A1.hcd](https://github.com/RPi-Distro/bluez-firmware/raw/master/broadcom/BCM43430A1.hcd)
 - [BCM4345C0.hcd](https://github.com/RPi-Distro/bluez-firmware/raw/master/broadcom/BCM4345C0.hcd)
-
-### Further Reading
-
-- https://wireless.wiki.kernel.org/en/users/drivers/brcm80211
 
 ## Dell XPS 13 9350 Firmware
 
