@@ -3,6 +3,7 @@ kernel=kernel8.img
 device_tree=bcm2711-rpi-4-b.dtb
 
 [all]
+arm_boost=1
 arm_64bit=1
 gpu_mem=32
 hdmi_force_hotplug=1
