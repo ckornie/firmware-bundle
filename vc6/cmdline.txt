@@ -1,1 +1,1 @@
-root=/dev/mmcblk0p2 rw rootwait smsc95xx.turbo_mode=N dwc_otg.lpm_enable=0 mitigations=off zswap.enabled=1 zswap.compressor=zstd zswap.max_pool_percent=20 zswap.zpool=z3fold dtparam=watchdog=on
+root=/dev/mmcblk0p2 rw rootwait dwc_otg.lpm_enable=0 mitigations=off zswap.enabled=1 zswap.compressor=zstd zswap.max_pool_percent=20 zswap.zpool=z3fold dtparam=watchdog=on

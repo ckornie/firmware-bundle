@@ -6,8 +6,11 @@ device_tree=bcm2711-rpi-4-b.dtb
 arm_boost=1
 arm_64bit=1
 gpu_mem=32
-hdmi_force_hotplug=1
-dtparam=poe_fan_temp0=65000,poe_fan_temp0_hyst=5000
-dtparam=poe_fan_temp1=67000,poe_fan_temp1_hyst=2000
+
+dtoverlay=vc4-kms-v3d
+dtparam=i2c_arm=on
 dtparam=spi=on
+
+hdmi_blanking=2
+enable_tvout=0
 enable_uart=1
