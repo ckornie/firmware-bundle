@@ -45,6 +45,8 @@ Download the latest [Cypress CYW43455 Bluetooth firmware](https://github.com/RPi
 
 - [BCM4345C0.hcd](https://github.com/RPi-Distro/bluez-firmware/raw/master/broadcom/BCM4345C0.hcd)
 
+The files can also be pulled from a [Raspberry Pi OS](https://www.raspberrypi.com/software/) installation. There is a [script](scripts/extract.sh) which will pull the required files automatically.
+
 ## Dell XPS 13 9350 Firmware
 
 ### Description
